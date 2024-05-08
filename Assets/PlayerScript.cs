@@ -15,10 +15,10 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float moveSpeedX = 5.0f;
-        float moveSpeedY = 8.0f;
-
         Vector3 v = rb.velocity;
+
+        const float moveSpeedX = 5.0f;
+        const float moveSpeedY = 8.0f;
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
