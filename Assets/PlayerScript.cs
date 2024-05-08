@@ -53,7 +53,7 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            v.y = 0;
+            //v.y = 0;
         }
 
         rb.velocity = v;
