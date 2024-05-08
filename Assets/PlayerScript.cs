@@ -20,11 +20,11 @@ public class PlayerScript : MonoBehaviour
         const float moveSpeedX = 5.0f;
         const float moveSpeedY = 8.0f;
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
         {
             v.x = moveSpeedX;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.A))
         {
             v.x = -moveSpeedX;
         }
